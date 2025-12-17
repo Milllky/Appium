@@ -61,7 +61,7 @@ public class AppTest {
 
         appObjects.chgFld.isDisplayed();
 
-        Assertions.assertEquals("Hello UiAutomator!", appObjects.chgFld.getText());
+        Assertions.assertEquals("Привет, UiAutomator!", appObjects.chgFld.getText());
     }
 
     @Test
